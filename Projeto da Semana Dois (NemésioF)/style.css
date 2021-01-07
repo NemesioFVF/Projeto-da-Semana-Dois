@@ -1,0 +1,398 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    overflow: hidden;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.mdl-mini-footer a {
+    color: rgb(5, 180, 5);
+}
+
+
+.mdl-mini-footer a:hover  {
+    color: rgb(191, 194, 3);
+    transition: 1s;
+}
+
+.mdl-mini-footer__left-section {
+    color: white;
+}
+
+.mdl-mini-footer__right-section ul {
+ margin-top: 7% !important;
+ color: white;
+}
+
+.mdl-mini-footer {
+    background-image: linear-gradient(120deg, #ffffff2a, black);
+    width: 98% !important;
+    margin-top: 1% !important;
+}
+
+#div2 {
+    margin: auto;
+    padding: 0%;
+}
+
+#go1{
+    width: 162px;
+    top: 50%;
+    padding:auto;
+    left: -136%;
+    right: 133%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+#gle1 {
+    width: 150px;
+    top: 50%;
+    padding:auto;
+    left: 224.5%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    transition: 1s;
+}
+
+#go1:hover .seabox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: black;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+    margin-top: -7%;
+}
+
+#gle1:hover .seabox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: black;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+    margin-top: -7%;
+}
+
+.mdl-layout__header-row nav {
+    margin-left: 75% !important; 
+}
+
+.nav {
+color: white !important;
+}
+
+.nav:hover {
+    color: rgb(255, 208, 0) !important;
+    transition: 1s;
+}
+
+.nav2 {
+    color: black !important;
+}
+
+.nav2:hover {
+    color: rgb(161, 132, 0) !important;
+    transition: 1s;
+}
+
+.mdl-layout-spacer {
+    margin-left: 100px;
+}
+
+.mdl-js-textfield {
+    display: flex !important; 
+    width: 500px !important; 
+}
+
+.btnsorte {
+    margin-left: 45.4% !important;
+    background-color: black !important;
+    border-radius: 5px !important;
+    margin-top: 17% !important;
+    margin-bottom: 15.5% !important;
+}
+
+.btnsorte a{
+    text-decoration: none !important;
+    color: white !important; 
+}
+
+.btnsorte:hover > a{
+    text-decoration: none !important;
+    color: black !important;
+}
+
+.btnsorte:hover {
+    margin-left: 45.4% !important;
+    background-color: white !important;
+    transition: 1s;
+}
+
+.topo {
+    background: black !important;
+}
+
+.topo2 {
+    background: white !important;
+}
+
+.google {
+    cursor: pointer;
+    width: 150px;
+}
+
+.bodyy {
+
+    background: white;
+    transition: 2s;
+    margin:auto;
+}
+
+.iconp {
+    color: white;
+    transition: 2s;
+}
+
+.seabox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: black;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+    margin-top: -7%;
+    transition: 1s;
+}
+
+.seabox:hover >.txt {
+    width: 500px;
+    padding: 0.6px;
+    transition: 1s;
+}
+
+.seabox:hover >.btn{
+    background: white;
+}
+
+.seabox:hover .iconp{
+    color: black;
+}
+
+.seabox:hover .a1{
+    width: 162px;
+    top: 50%;
+    left: 0%;
+    padding:auto;
+    right: -6.1%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    transition: 1s;
+}
+
+.seabox:hover .a2 {
+    width: 150px;
+    top: 50%;
+    padding:auto;
+    right: 6%;
+    left: 1;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    transition: 1s;
+}
+
+.btn {
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 2s;
+    text-decoration: none;
+}
+
+.txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+    transition: 1s;
+}
+
+/* trocando as cores */
+
+.seabox2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+    margin-top: -7%;  
+}
+
+.txt2 {
+    color: black;
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+    transition: 1s;
+}
+
+.seabox2:hover >.txt2 {
+    width: 500px;
+    padding: 0.6px;
+    transition: 1s;
+}
+
+.seabox2:hover >.txt2 {
+    width: 500px;
+    padding: 0.6px;
+}
+
+.btn2{
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 2s;
+    text-decoration: none;
+}
+
+.seabox2:hover >.btn2{
+    background: black;
+}
+
+.seabox2 {
+ background: white;
+}
+
+.iconp2 {
+    color: black;
+    transition: 2s;
+}
+
+.seabox2:hover .iconp2{
+    color: white;
+}
+
+.seabox2:hover >.iconp2{
+    background: white;
+}
+
+.seabox2:hover >.btn2{
+    background: black;
+}
+
+.body2 {
+    background-color: black;
+    transition: 2s;
+}
+
+.seabox2:hover .a1{
+    width: 162px;
+    top: 50%;
+    left: 0%;
+    right: -6.1%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    transition: 1s;
+}
+
+.seabox2:hover .a2 {
+    width: 150px;
+    top: 50%;
+    right: 6%;
+    left: 1;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    transition: 1s;
+}
+
+.btnsorte2 {
+    margin-left: 45.4% !important;
+    background-color: white !important;
+    color: black !important;
+    border-radius: 5px !important;
+    margin-top: 17% !important;
+    margin-bottom: 15.5% !important;
+}
+
+.btnsorte2:hover {
+    margin-left: 45.4% !important;
+    background-color: black !important;
+    color: white!important;
+    transition: 1s !important;
+    box-shadow: 0px 1px 4px rgba(255, 255, 255, 0.582) !important;
+}
+
+.btnsorte2 a{
+    text-decoration: none !important;
+    color: black !important;
+}
+
+.btnsorte2:hover > a{
+    text-decoration: none !important;
+    color: white !important;
+}
+
+#go2:hover .seabox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: black;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+    margin-top: -7%;
+}
+
+#gle2:hover .seabox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: black;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+    margin-top: -7%;
+}
+

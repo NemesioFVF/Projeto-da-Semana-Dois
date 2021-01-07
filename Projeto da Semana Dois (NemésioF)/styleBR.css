@@ -1,0 +1,356 @@
+* {
+    color: inherit;
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+#globo {
+    display: flex;
+    margin: auto;
+    
+}
+
+#desenvolv {
+    display: flex;
+    margin: auto;
+    margin-top: 0.5%;
+    margin-bottom: -0.4%;
+}
+
+#gifglo {
+    
+    margin: auto;
+    width: 15%;
+    
+}
+
+#gifglo2 {
+    margin: auto;
+    width: 15%;
+}
+
+#eu {
+    margin-right: 2%;
+    width: 40%;
+}
+
+.bodyy {
+    background: white;
+    transition: 2s;
+    margin:auto;
+}
+
+
+
+.bodyy2 {
+
+    background: black;
+    transition: 2s;
+    margin:auto;
+}
+
+.ICpes {
+    display: flex;
+    color: white;
+}
+
+.pesuisaBR {
+    color: white;
+    display: flex !important; 
+    width: 450px !important;
+}
+
+
+.pesuisaBR2 {
+    color: black;
+    display: flex !important; 
+    width: 450px !important;
+}
+
+.mdl-js-button {
+
+    color: rgba(252, 252, 113, 0.808) !important;
+    
+}
+
+.mdl-layout__header-row {
+
+    background-color: black;
+}
+
+.google {
+    width: 25%;
+}
+
+.google2 {
+    width: 25%;
+}
+
+
+.bodyy2 {
+
+    background-color: black;
+}
+
+.demo-card-wide.mdl-card {
+    width: 512px;
+    
+}
+
+.demo-card-wide>.mdl-card__title {
+    color: #fff;
+    height: 176px;
+}
+
+.demo-card-wide>.mdl-card__menu {
+    color: #fff;
+}
+
+.navBR {
+    color: white !important;
+}
+
+
+.navBR:hover {
+    color: rgb(255, 208, 0) !important;
+    transition: 1s;
+}
+
+.navBR2 {
+    color: black !important;
+}
+
+.navBR2:hover {
+    color: rgb(161, 132, 0) !important;
+    transition: 1s;
+}
+
+
+.mdl-mini-footer a {
+    color: rgb(5, 180, 5);
+}
+
+
+.mdl-mini-footer a:hover  {
+    color: rgb(191, 194, 3);
+    transition: 1s;
+}
+
+.mdl-mini-footer__left-section {
+    color: white;
+}
+
+.mdl-mini-footer__right-section ul {
+ margin-top: 7% !important;
+ color: white;
+}
+
+.mdl-mini-footer {
+    background-image: linear-gradient(120deg, #ffffff2a, black);
+    width: 98% !important;
+    margin-top: 1% !important;
+}
+
+.mdl-card__supporting-text {
+
+    color: white !important; 
+    text-align: justify; 
+    background-color: rgba(14, 97, 25, 0.514);
+    margin: auto;
+    margin-top: -13.4%;
+    font-size: 1em !important;
+}
+
+.demo-card-wide {
+    align-items: center; 
+    margin: auto;
+    background-image: linear-gradient(120deg, #3cb106fa, rgb(219, 205, 0)) !important;
+}
+
+#bandeira {
+    margin: auto;
+    margin-top: -2%;
+    margin-left: -2%;
+    width: 500px;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.topo2 {
+    background: white !important;
+}
+
+.ICpes {
+    color: white;
+   }
+
+
+.ICpes2 {
+ color: black;
+}
+
+.nav {
+    color: white !important;
+    }
+    
+    .nav:hover {
+        color: rgb(255, 208, 0) !important;
+        transition: 1s;
+    }
+    
+    .nav2 {
+        color: black !important;
+    }
+    
+    .nav2:hover {
+        color: rgb(161, 132, 0) !important;
+        transition: 1s;
+    }
+.txtps{
+    color: white !important;
+    background-color: black !important;
+}
+
+.txtps2 {
+    color: white !important;
+    background-color: black !important;
+}
+
+
+.sobreP2 {
+    color: white !important; 
+    text-align: justify; 
+    background-color: rgba(0, 0, 0, 0.514);
+    margin: 2.2% 2.2%;
+    margin-top: -167px !important;
+    font-size: 1em !important;
+}
+
+.sobreP {
+    color: rgb(0, 0, 0) !important; 
+    text-align: justify; 
+    background-color: rgba(255, 255, 255, 0.753);
+    margin-top: -167px !important;
+    margin-bottom: 10px !important;
+    font-size: 1em !important;
+    
+}
+
+.fundosobre {
+        align-items: center; 
+        margin: auto;
+        background-image: linear-gradient(120deg, #000000fa, rgb(255, 255, 255)) !important;
+}
+
+.fundosobre2 {
+    align-items: center; 
+    margin: auto;
+    background-image: linear-gradient(120deg, #fffffffa, rgb(0, 0, 0)) !important;
+}
+
+#mapa {
+
+    background-color: white; 
+    box-shadow: 0px 5px 6px black; 
+    width: 680px; 
+    margin: auto; 
+    margin-left: 20px; 
+    margin-right: 20px;
+    margin-bottom: -1%;
+    border-radius: 20px;
+}
+
+.pesquisaG1 {
+    align-items: center; 
+    margin: auto; 
+    margin-top: 10px;
+    margin-left: 10px; 
+    margin-right: 10px; 
+    width: 700px !important;
+    height: 547px !important;
+    background-image: url('img/fundo.png') !important;
+    border-radius: 10px !important;
+}
+
+.mdl-card__media {
+
+    background-color: transparent !important;
+}
+.mdl-card__media img {
+    margin-top: 10% ;
+}
+
+.sbgoo {
+    background-color: rgba(0, 0, 0, 0.473);
+    color: rgb(255, 253, 253) !important;
+    margin: auto !important;
+    height: 19%;
+    border-radius: 10px !important;
+}
+
+.sbgoo2 {
+    background-color: rgba(0, 0, 0, 0.473);
+    color: rgb(255, 253, 253) !important;
+    margin: auto !important;
+    border-radius: 10px !important;
+    height: 43%;
+}
+
+.sbgoo h5 {
+    margin-top: 1% !important;
+}
+
+.mdl-card__actions a {
+
+    color:rgb(37, 140, 236) !important;
+}
+
+#conteudo {
+
+    display: flex; 
+    margin: auto;
+}
+
+.mdl-card__media a img {
+    margin: 1%;
+    margin-left: 1%;
+    width: 160px;  
+}
+
+.mdl-card__media h4 {
+    display: flex;
+    justify-content: center;
+    color: rgb(3, 204, 3);
+}
+
+#end {
+    display:grid;
+    justify-content:end;
+    color: rgba(255, 38, 0, 0.87);;
+}
+
+h5 {
+    color: rgba(255, 208, 0, 0.87);
+    margin-top: 2% !important;
+    margin-bottom: 4% !important;
+}
+
+#minhafoto {
+
+    width: 50px;
+    border-radius: 40px !important;
+}
